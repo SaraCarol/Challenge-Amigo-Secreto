@@ -1,12 +1,63 @@
-# React + Vite
+# Amigo Secreto 🎁
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido al challenge **Amigo Secreto**! Esta es una aplicación web desarrollada para AluraLatam que te permite organizar un sorteo de amigo secreto de manera fácil y divertida. Puedes agregar varios nombres, realiza el sorteo y reiniciar la lista cuando lo necesites.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Características ✨
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Agregar nombres**: Ingresa los nombres de los participantes al sorteo.
+- **Eliminar nombres**: Puedes eliminar un nombre si es necesario.
+- **Sortear**: Realiza un sorteo aleatorio para seleccionar un amigo secreto.
+- **Reiniciar**: Reinicia el sorteo y obten otro amigo secreto.
+- **Reiniciar lista**: Borra los participantes actuales y vuelve a comenzar.
+
+---
+
+## Tecnologías Utilizadas 🛠️
+
+- **Frontend**:
+  - React
+  - Material-UI (MUI)
+  - Vite
+- **Estilos**:
+  - CSS
+- **Control de Versiones**:
+  - Git
+  - GitHub
+
+---
+
+## Instalación 🚀
+
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:
+
+1. **Clona el repositorio**:
+   ```bash
+   git clone https://github.com/tu-usuario/amigo-secreto.git
+
+2. **Instala las dependencias**:
+    ```bash
+    cd amigo-secreto
+    npm install
+    
+4. **Ejecuta la aplicación**:
+   ```bash
+   npm run dev
+
+5. **Abre tu navegador**: y visita http://localhost:5173 para ver la aplicación en acción.
+
+---
+
+## Contacto 📧
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+
+Nombre: Sara Carolina Mendoza
+
+Email: mendoza.saracarolina@gmail.com
+
+LinkedIn: saramendozaremolina
+
+¡Gracias por visitar este proyecto! Espero que te sea útil y divertido. 🎉

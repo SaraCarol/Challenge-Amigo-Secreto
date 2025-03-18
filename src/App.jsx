@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import './App.css'
-import InputNombres from './Components/InputNombres'
+import InputNombres from './Components/InputNombres';
+import ListaNombres from './Components/ListaNombres';
+import { Container, Typography } from "@mui/material";
 import React, { useState } from "react";
 
 function App() {
@@ -30,7 +32,11 @@ function App() {
   };
 
   return (
-    <InputNombres agregarNombre={agregarNombre}/>
+    <Container>
+        <InputNombres agregarNombre={agregarNombre}/>
+        <ListaNombres nombres={nombres} eliminarNombre={eliminarNombre} />
+    </Container>
+    
   )
 }
 

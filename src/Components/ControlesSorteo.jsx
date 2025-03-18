@@ -2,24 +2,23 @@
 import React, { useState } from "react";
 import { Button, Stack, Typography } from "@mui/material";
 
-const ControlesSorteo = () => {
-    
+const ControlesSorteo = ({sortear, reiniciarSorteo, resetearLista, resultado}) => {
 
     return (
-        {/*<Stack spacing={2} alignItems="center">
+        <Stack spacing={2} alignItems="center">
             <Typography variant="h6">
-                {resultado ? `Ganador: ${resultado}` : "¡Haz un sorteo!"}
+                {resultado ? `El amigo sorteado es: ${resultado}` : "¡Haz un sorteo!"}
             </Typography>
             <Button variant="contained" onClick={sortear}>
                 Sortear
             </Button>
-            <Button variant="outlined" onClick={sortear}>
+            <Button variant="outlined" onClick={reiniciarSorteo}>
                 Reiniciar Sorteo
             </Button>
-            <Button variant="outlined" color="error" onClick={resetear}>
+            <Button variant="outlined" color="error" onClick={resetearLista}>
                 Reiniciar Lista
-            </Button>
-        </Stack>*/}
+        </Button>
+        </Stack>
     );
 };
 

@@ -2,6 +2,7 @@
 import './App.css'
 import InputNombres from './Components/InputNombres';
 import ListaNombres from './Components/ListaNombres';
+import ControlesSorteo from './Components/ControlesSorteo';
 import { Container, Typography } from "@mui/material";
 import React, { useState } from "react";
 
@@ -31,10 +32,21 @@ function App() {
     setResultado(null);
   };
 
+  const reiniciarSorteo = () => {
+    setResultado(null);
+  };
+
+
   return (
     <Container>
         <InputNombres agregarNombre={agregarNombre}/>
         <ListaNombres nombres={nombres} eliminarNombre={eliminarNombre} />
+        <ControlesSorteo
+          sortear={sortear}
+          reiniciarSorteo={reiniciarSorteo}
+          resetearLista={resetear}
+          resultado={resultado}
+      />
     </Container>
     
   )

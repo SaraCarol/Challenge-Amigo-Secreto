@@ -4,7 +4,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 
 const ListaNombres = ({ nombres, eliminarNombre }) => {
     return (
-        <List>
+        <List className="lista-container">
             {nombres.map((nombre, index) => (
                 <ListItem
                     key={index}

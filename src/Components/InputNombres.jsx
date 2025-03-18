@@ -24,11 +24,10 @@ const InputNombres = ({agregarNombre}) => {
         agregarNombre(nombre.trim());
         setNombre("");
 
-        console.log(nombre)
     };
 
     return (
-        <Box >
+        <Box className="input-container">
             <TextField
                 label="Nombre"
                 variant="outlined"
@@ -36,7 +35,11 @@ const InputNombres = ({agregarNombre}) => {
                 onChange={handleChange}
                 error={!!error}
                 helperText={error}
+                placeholder="Digite un nombre"
                 fullWidth
+                InputLabelProps={{
+                    shrink: true, 
+                }}
             />
             <Button variant="contained" color="primary" onClick={handleSubmit}>
                 Agregar
